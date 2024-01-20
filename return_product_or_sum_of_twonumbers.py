@@ -18,6 +18,6 @@ sum = first_number + second_number
 
 # Write it so that you'll return the product of the two numbers if equal to or lower than 1000 otherwise return their sum
 if product <= 1000: 
-    print(product)
+    print("Since the product of the two numbers is less than or equal to 1000,""\n"f"The product of {first_number} and {second_number} is {product}")
 else:
-    print(sum)
+    print(("Since the product of the two numbers is more than 1000,""\n"f"The sum of {first_number} and {second_number} is {sum}"))
