@@ -1,7 +1,15 @@
 # Given two integer numbers, return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
 
+
 # Psuedo Code
+
+
 # Ask user input for 2 numbers
+first_number = input("Enter the first number: ")
+second_number = input("Enter the second number: ")
+
+print(first_number)
+print(second_number)
 # Get the product of the two numbers
 # Add the sum of two numbers
 # Write it so that you'll return the product of the two numbers if equal to or lower than 1000 otherwise return their sum
